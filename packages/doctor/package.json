@@ -18,5 +18,16 @@
   "scripts": {
     "tsc": "tsc",
     "test": "echo \"Error: run tests from root\" && exit 1"
-  }
+  },
+  "peerDependencies": {},
+  "dependencies": {},
+  "devDependencies": {
+    "@storybook/addon-actions": "^6.3.5",
+    "@storybook/addon-links": "^6.3.5",
+    "@storybook/react": "^6.3.5"
+  },
+  "private": true,
+  "stories": [
+    "../stories/**/*.stories.@(js|jsx|ts|tsx)"
+  ]
 }
